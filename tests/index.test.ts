@@ -5,8 +5,21 @@ describe("addition", () => {
     expect(addition(2, 3)).toBe(5);
   });
 
+  it("devrait retourner la somme de deux nombres négatifs", () => {
+    expect(addition(-2, -3)).toBe(-5);
+  });
+
+  it("devrait retourner la somme d'un nombre positif et d'un nombre négatif", () => {
+    expect(addition(2, -3)).toBe(-1);
+  });
+
+  it("devrait retourner la somme quand un nombre est zéro", () => {
+    expect(addition(0, 5)).toBe(5);
+    expect(addition(5, 0)).toBe(5);
+  });
+
   it("devrait gérer les nombres négatifs", () => {
-    expect(addition(-1, -4)).toBe(-3);
+    expect(addition(-1, -2)).toBe(-3);
   });
 
   it("devrait gérer zéro", () => {
