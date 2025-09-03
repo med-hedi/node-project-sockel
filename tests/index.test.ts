@@ -6,7 +6,7 @@ describe("addition", () => {
   });
 
   it("devrait gérer les nombres négatifs", () => {
-    expect(addition(-1, -2)).toBe(-3);
+    expect(addition(-1, -4)).toBe(-3);
   });
 
   it("devrait gérer zéro", () => {
@@ -21,10 +21,14 @@ describe("addition", () => {
   });
 
   it("devrait gérer les très grands nombres", () => {
-    expect(addition(Number.MAX_SAFE_INTEGER, 1)).toBe(Number.MAX_SAFE_INTEGER + 1);
+    expect(addition(Number.MAX_SAFE_INTEGER, 1)).toBe(
+      Number.MAX_SAFE_INTEGER + 1,
+    );
   });
 
   it("devrait gérer les très petits nombres", () => {
-    expect(addition(Number.MIN_SAFE_INTEGER, -1)).toBe(Number.MIN_SAFE_INTEGER - 1);
+    expect(addition(Number.MIN_SAFE_INTEGER, -1)).toBe(
+      Number.MIN_SAFE_INTEGER - 1,
+    );
   });
 });
