@@ -1,4 +1,4 @@
-## My node ppreconfigured project with TypeScript + Husky + Jest + ESLint
+## My node preconfigured project with TypeScript + Husky + Jest + ESLint
 
 ## 📦 Installation
 
@@ -10,7 +10,18 @@ cd node-project-sockel
 npm install
 ```
 
+## Outils
+
 - Typescript preinstalled
 - Husky configured for pre-commit and pre-push
 - Jest for unit test
 - ESLint for formatted and maintenable code
+
+## Conf
+
+- Conf ESLint
+- Conf Prettier
+- Conf JSDoc for code documentation
+- Conf jest + coverage
+- Conf build
+- TODO: Conf cypress for integration test
