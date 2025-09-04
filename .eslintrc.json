@@ -1,17 +1,28 @@
 {
+  // Specifies the parser for TypeScript code
   "parser": "@typescript-eslint/parser",
+
+  // Loads the TypeScript ESLint and JSDoc plugins
   "plugins": ["@typescript-eslint"],
+
+  // Extends recommended ESLint, TypeScript, Prettier, and JSDoc rules
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
+
+  // Sets ECMAScript version and module type
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module"
   },
+
+  // Custom rules for your project
   "rules": {
+    // Requires semicolons at the end of statements
     "semi": ["error", "always"],
+    // Requires double quotes for strings
     "quotes": ["error", "double"]
   }
 }
