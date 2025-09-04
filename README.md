@@ -1,19 +1,46 @@
-# 🚀 Mon Projet TypeScript + Husky + Jest
-
-Exemple de projet **clé en main** avec :
-
-- [TypeScript](https://www.typescriptlang.org/)  
-- [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)  
-- [Jest](https://jestjs.io/) pour les tests unitaires  
-- [Husky](https://typicode.github.io/husky) + [lint-staged](https://github.com/okonet/lint-staged) pour automatiser la qualité du code
-
----
+## My node preconfigured project with TypeScript + Husky + Jest + ESLint
 
 ## 📦 Installation
 
-Cloner le projet puis installer les dépendances :
+Clone the project then install the dependencies :
 
 ```bash
-git clone <url-du-repo>
-cd mon-projet
+git clone "https://github.com/med-hedi/node-project-sockel.git"
+cd node-project-sockel
 npm install
+```
+
+## Outils
+
+- Typescript preinstalled
+- Husky configured for pre-commit and pre-push
+- Jest for unit test
+- ESLint for formatted and maintenable code
+
+## Conf# Node.js Starter Project with TypeScript, Husky, Jest, and ESLint
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/med-hedi/node-project-sockel.git
+cd node-project-sockel
+npm install
+```
+
+## Tools Included
+
+- TypeScript preconfigured
+- Husky for pre-commit and pre-push hooks
+- Jest for unit testing
+- ESLint for code formatting and maintainability
+
+## Configuration
+
+- ESLint setup
+- Prettier setup
+- JSDoc for code documentation
+- Jest with coverage reporting
+- Build configuration
+- TODO: Cypress for integration testing
