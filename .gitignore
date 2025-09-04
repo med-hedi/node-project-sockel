@@ -4,4 +4,7 @@ node_modules/
 # Build output
 dist/
 build/
-node_modules
+
+
+# Coverage
+coverage/
