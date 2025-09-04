@@ -1,4 +1,6 @@
-/* eslint-disable */
+/* eslint-disable jsdoc/require-jsdoc */
+/* eslint-disable jsdoc/require-param */
+/* eslint-disable jsdoc/require-returns */
 /**
  * @type {import('ts-jest').JestConfigWithTsJest}
  * Type annotation for Jest config with ts-jest
